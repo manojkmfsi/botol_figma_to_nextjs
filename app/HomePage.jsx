@@ -43,7 +43,7 @@ export default function HomePage() {
           <HydrationEssentialsSection />
           <AboutUsSection />
           <FAQSection />
-          <ContactSection/>
+          <ContactSection />
         </motion.div>
       </motion.main>
       <Footer />

@@ -7,26 +7,27 @@ import HydrationEssentialsSection from "./HydrationEssentialsSection";
 import { motion } from "framer-motion";
 import AboutUsSection from "./AboutUsSection";
 import FAQSection from "./FAQSection";
+import ContactSection from "./ContactSection";
 
 const pageVariants = {
-  initial: { opacity: 0 },
-  animate: {
-    opacity: 1,
-    transition: {
-      duration: 0.6,
-      staggerChildren: 0.1,
-      delayChildren: 0.2,
-    },
-  },
+  // initial: { opacity: 0 },
+  // animate: {
+  //   opacity: 1,
+  //   transition: {
+  //     duration: 0.6,
+  //     staggerChildren: 0.1,
+  //     delayChildren: 0.2,
+  //   },
+  // },
 };
 
 const sectionVariants = {
-  initial: { opacity: 0, y: 20 },
-  animate: {
-    opacity: 1,
-    y: 0,
-    transition: { duration: 0.8, ease: "easeOut" },
-  },
+  // initial: { opacity: 0, y: 20 },
+  // animate: {
+  //   opacity: 1,
+  //   y: 0,
+  //   transition: { duration: 0.8, ease: "easeOut" },
+  // },
 };
 
 export default function HomePage() {
@@ -42,6 +43,7 @@ export default function HomePage() {
           <HydrationEssentialsSection />
           <AboutUsSection />
           <FAQSection />
+          <ContactSection/>
         </motion.div>
       </motion.main>
       <Footer />

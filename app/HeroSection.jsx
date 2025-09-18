@@ -98,7 +98,7 @@ export default function HeroSection() {
 
             {/* Main Heading */}
             <motion.h2
-              className="relative top-[52px] sm:top-[78px] lg:top-[104px] left-1/2 transform -translate-x-1/2 text-[48px] sm:text-[72px] lg:text-[76px] font-semibold leading-[50px] sm:leading-[75px] lg:leading-[100px] tracking-[0.5px] sm:tracking-[0.75px] lg:tracking-[1px] text-center text-primary max-w-[90%] sm:max-w-[80%] lg:max-w-[70%]"
+              className="relative top-[70px] sm:top-[78px] lg:top-[104px] left-1/2 transform -translate-x-1/2 text-[30px] sm:text-[72px] lg:text-[76px] font-semibold leading-[35px] sm:leading-[75px] lg:leading-[100px] tracking-[0.5px] sm:tracking-[0.75px] lg:tracking-[1px] text-center text-primary max-w-[90%] sm:max-w-[80%] lg:max-w-[70%]"
               variants={textVariance}
             >
               The Ultimate Companion

@@ -19,7 +19,7 @@ export default function ContactSection() {
 
   return (
     <section className="w-full mt-[40px] sm:mt-[60px] lg:mt-[80px]">
-      <div className=" px-[30px] sm:px-[45px] lg:px-[60px] py-[23px] sm:py-[34px] lg:py-[46px] w-full max-w-[1320px] mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="w-full max-w-[1320px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row justify-between items-center gap-8 lg:gap-0 rounded-md sm:rounded-lg lg:rounded-[18px] bg-[linear-gradient(90deg,#201f1fcc_0%,_#201f1f_100%)]">
           {/* Left Image Section */}
           <div className="w-full lg:w-[40%] mt-[21px] sm:mt-[31px] lg:mt-[42px] lg:self-end">
@@ -31,7 +31,7 @@ export default function ContactSection() {
           </div>
 
           {/* Right Form Section */}
-          <div className="w-full lg:w-[48%] flex flex-col justify-start items-start gap-[13px] sm:gap-[19px] lg:gap-[26px]">
+          <div className=" px-[30px] sm:px-[45px] lg:px-[60px] py-[23px] sm:py-[34px] lg:py-[46px] w-full lg:w-[48%] flex flex-col justify-start items-start gap-[13px] sm:gap-[19px] lg:gap-[26px]">
             {/* Header */}
             <h2
               className="text-[20px] sm:text-[30px] lg:text-[40px] font-semibold leading-[25px] sm:leading-[37px] lg:leading-[50px] tracking-[0.5px] sm:tracking-[0.75px] lg:tracking-[1px] text-white"

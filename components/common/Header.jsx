@@ -85,7 +85,7 @@ const Header = () => {
                 padding: "12px 36px",
               }}
             >
-              Inquiry Nowh
+              Inquiry Now
             </button>
           </div>
         </div>

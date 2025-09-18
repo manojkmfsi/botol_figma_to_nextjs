@@ -15,7 +15,7 @@ export default function ProductShowcaseSection() {
         </div>
 
         {/* Right Content Section */}
-        <div className="w-full lg:w-1/2 z-[-1] bg-neutral-900 relative">
+        <div className="w-full lg:w-1/2 z-[-1] bg-neutral-900 relative px-[30px] sm:px-[45px] lg:px-[60px]">
           <div className="flex flex-col justify-center items-center h-[300px] sm:h-[400px] lg:h-[860px] gap-[37px] sm:gap-[55px] lg:gap-[74px]">
             {/* Vacuum Bottles */}
             <div className="flex items-center gap-[10px] sm:gap-[15px] lg:gap-[20px] w-full max-w-[400px]">

@@ -47,14 +47,10 @@ export default function HydrationEssentialsSection() {
           {/* Header Section */}
           <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 sm:gap-0">
             <div className="w-full sm:w-[50%]">
-              <h2
-                className="text-[30px] sm:text-[45px] lg:text-[60px] font-semibold leading-[40px] sm:leading-[60px] lg:leading-[80px] text-secondary mb-2"
-              >
+              <h2 className="text-[30px] sm:text-[45px] lg:text-[60px] font-semibold leading-[40px] sm:leading-[60px] lg:leading-[80px] text-secondary mb-2">
                 Hydration Essentials
               </h2>
-              <p
-                className="text-[14px] sm:text-[18px] lg:text-[24px] font-normal leading-[22px] sm:leading-[33px] lg:leading-[45px] text-secondary"
-              >
+              <p className="text-[14px] sm:text-[18px] lg:text-[24px] font-normal leading-[22px] sm:leading-[33px] lg:leading-[45px] text-secondary">
                 Discover Our Range of Premium Water Bottles
               </p>
             </div>

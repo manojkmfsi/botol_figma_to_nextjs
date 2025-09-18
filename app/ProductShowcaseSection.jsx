@@ -26,9 +26,7 @@ export default function ProductShowcaseSection() {
                   className="w-[24px] h-[24px] sm:w-[36px] sm:h-[36px] lg:w-[48px] lg:h-[48px] object-contain"
                 />
               </div>
-              <h3
-                className="text-[20px] sm:text-[30px] lg:text-[40px] font-normal leading-[25px] sm:leading-[37px] lg:leading-[50px] text-white"
-              >
+              <h3 className="text-[20px] sm:text-[30px] lg:text-[40px] font-normal leading-[25px] sm:leading-[37px] lg:leading-[50px] text-white">
                 Vacuum Bottles
               </h3>
             </div>
@@ -42,9 +40,7 @@ export default function ProductShowcaseSection() {
                   className="w-[33px] h-[33px] sm:w-[49px] sm:h-[49px] lg:w-[66px] lg:h-[66px] object-contain"
                 />
               </div>
-              <h3
-                className="text-[20px] sm:text-[30px] lg:text-[40px] font-normal leading-[25px] sm:leading-[37px] lg:leading-[50px] text-white"
-              >
+              <h3 className="text-[20px] sm:text-[30px] lg:text-[40px] font-normal leading-[25px] sm:leading-[37px] lg:leading-[50px] text-white">
                 Fridge Bottles & Jugs
               </h3>
             </div>
@@ -58,9 +54,7 @@ export default function ProductShowcaseSection() {
                   className="w-[27px] h-[27px] sm:w-[40px] sm:h-[40px] lg:w-[54px] lg:h-[54px] object-contain"
                 />
               </div>
-              <h3
-                className="text-[20px] sm:text-[30px] lg:text-[40px] font-normal leading-[25px] sm:leading-[37px] lg:leading-[50px] text-white"
-              >
+              <h3 className="text-[20px] sm:text-[30px] lg:text-[40px] font-normal leading-[25px] sm:leading-[37px] lg:leading-[50px] text-white">
                 Borosilicate Bottles
               </h3>
             </div>
@@ -74,9 +68,7 @@ export default function ProductShowcaseSection() {
                   className="w-[24px] h-[24px] sm:w-[36px] sm:h-[36px] lg:w-[48px] lg:h-[48px] object-contain"
                 />
               </div>
-              <h3
-                className="text-[20px] sm:text-[30px] lg:text-[40px] font-normal leading-[25px] sm:leading-[37px] lg:leading-[50px] text-white"
-              >
+              <h3 className="text-[20px] sm:text-[30px] lg:text-[40px] font-normal leading-[25px] sm:leading-[37px] lg:leading-[50px] text-white">
                 Kettles
               </h3>
             </div>

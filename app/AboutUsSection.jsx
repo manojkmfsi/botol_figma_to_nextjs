@@ -37,22 +37,16 @@ export default function AboutUsSection() {
               <div className="w-full items-start lg:flex-1 flex flex-col gap-[15px] sm:gap-[22px] lg:gap-[30px]">
                 {/* Header */}
                 <div className="flex flex-col gap-[5px] sm:gap-[7px] lg:gap-[10px]">
-                  <h2
-                    className="text-[30px] sm:text-[45px] lg:text-[60px] font-semibold leading-[37px] sm:leading-[56px] lg:leading-[75px] text-white"
-                  >
+                  <h2 className="text-[30px] sm:text-[45px] lg:text-[60px] font-semibold leading-[37px] sm:leading-[56px] lg:leading-[75px] text-white">
                     About us
                   </h2>
-                  <p
-                    className="text-[14px] sm:text-[18px] lg:text-[24px] font-normal leading-[18px] sm:leading-[22px] lg:leading-[30px] text-white"
-                  >
+                  <p className="text-[14px] sm:text-[18px] lg:text-[24px] font-normal leading-[18px] sm:leading-[22px] lg:leading-[30px] text-white">
                     HEALTH, HAPPINESS, & SUSTAINABILITY
                   </p>
                 </div>
 
                 {/* Description */}
-                <p
-                  className="text-[12px] sm:text-[16px] lg:text-[20px] font-normal leading-[19px] sm:leading-[24px] lg:leading-[32px] text-white w-full lg:w-[86%]"
-                >
+                <p className="text-[12px] sm:text-[16px] lg:text-[20px] font-normal leading-[19px] sm:leading-[24px] lg:leading-[32px] text-white w-full lg:w-[86%]">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry&apos;s
                   standard dummy text ever since the 1500s, when an unknown
@@ -67,8 +61,7 @@ export default function AboutUsSection() {
 
                 {/* Learn More Button */}
                 <button
-                                  className="px-[17px] sm:px-[25px] lg:px-[34px] py-[6px] sm:py-[9px] lg:py-[12px] w-full sm:w-auto max-w-[200px] sm:max-w-none"
-
+                  className="px-[17px] sm:px-[25px] lg:px-[34px] py-[6px] sm:py-[9px] lg:py-[12px] w-full sm:w-auto max-w-[200px] sm:max-w-none"
                   style={{
                     background:
                       " linear-gradient(90deg, #00D1FF 0%, #1A83FF 100%); border-radius: 100px",
@@ -77,7 +70,6 @@ export default function AboutUsSection() {
                 >
                   Learn More
                 </button>
-
               </div>
 
               {/* Right Features Section */}
@@ -87,14 +79,10 @@ export default function AboutUsSection() {
                     key={index}
                     className={`${feature.width} flex gap-[15px] sm:gap-[22px] lg:gap-[30px] items-center p-[12px] sm:p-[18px] lg:p-[24px] rounded-lg sm:rounded-xl lg:rounded-[24px] border border-solid border-border-white bg-[linear-gradient(180deg,#ffffff4c_0%,#00000019_50%,#ffffff33_100%)] shadow-[0px_2px_10px_#888888ff] sm:shadow-[0px_3px_15px_#888888ff] lg:shadow-[0px_4px_20px_#888888ff]`}
                   >
-                    <span
-                      className="text-[30px] sm:text-[45px] lg:text-[60px] font-semibold leading-[37px] sm:leading-[56px] lg:leading-[75px] text-white self-end"
-                    >
+                    <span className="text-[30px] sm:text-[45px] lg:text-[60px] font-semibold leading-[37px] sm:leading-[56px] lg:leading-[75px] text-white self-end">
                       {feature.number}
                     </span>
-                    <h3
-                      className="text-[16px] sm:text-[24px] lg:text-[32px] font-semibold leading-[20px] sm:leading-[30px] lg:leading-[40px] text-white"
-                    >
+                    <h3 className="text-[16px] sm:text-[24px] lg:text-[32px] font-semibold leading-[20px] sm:leading-[30px] lg:leading-[40px] text-white">
                       {feature.title}
                     </h3>
                   </div>

@@ -66,9 +66,7 @@ export default function FAQSection() {
                       >
                         {item?.number}
                       </span>
-                      <h3
-                        className="text-[16px] sm:text-[24px] lg:text-[32px] font-bold leading-[20px] sm:leading-[30px] lg:leading-[40px] text-secondary"
-                      >
+                      <h3 className="text-[16px] sm:text-[24px] lg:text-[32px] font-bold leading-[20px] sm:leading-[30px] lg:leading-[40px] text-secondary">
                         {item?.question}
                       </h3>
                     </div>
@@ -100,9 +98,7 @@ export default function FAQSection() {
                   {/* Expanded Content */}
                   {expandedItem === index && item?.answer && (
                     <div className="mt-[15px] sm:mt-[22px] lg:mt-[30px] ml-[50px] sm:ml-[75px] lg:ml-[100px]">
-                      <p
-                        className="text-[12px] sm:text-[16px] lg:text-[20px] font-normal leading-[17px] sm:leading-[21px] lg:leading-[28px] text-accent"
-                      >
+                      <p className="text-[12px] sm:text-[16px] lg:text-[20px] font-normal leading-[17px] sm:leading-[21px] lg:leading-[28px] text-accent">
                         {item?.answer}
                       </p>
                     </div>

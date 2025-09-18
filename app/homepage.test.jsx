@@ -44,8 +44,12 @@ describe("HomePage", () => {
     expect(screen.getByText("Mock Header")).toBeInTheDocument();
     expect(screen.getByText("Mock Footer")).toBeInTheDocument();
     expect(screen.getByText("Mock Hero Section")).toBeInTheDocument();
-    expect(screen.getByText("Mock Product Showcase Section")).toBeInTheDocument();
-    expect(screen.getByText("Mock Hydration Essentials Section")).toBeInTheDocument();
+    expect(
+      screen.getByText("Mock Product Showcase Section"),
+    ).toBeInTheDocument();
+    expect(
+      screen.getByText("Mock Hydration Essentials Section"),
+    ).toBeInTheDocument();
     expect(screen.getByText("Mock About Us Section")).toBeInTheDocument();
     expect(screen.getByText("Mock FAQ Section")).toBeInTheDocument();
   });

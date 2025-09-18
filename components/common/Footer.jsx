@@ -21,9 +21,7 @@ const Footer = () => {
                   {/* Description and Social Icons */}
                   <div className="flex flex-col sm:flex-row items-start gap-4 sm:gap-6">
                     <div className="flex-1">
-                      <p
-                        className="text-sm sm:text-base font-normal leading-3xl text-primary mb-4 sm:mb-0"
-                      >
+                      <p className="text-sm sm:text-base font-normal leading-3xl text-primary mb-4 sm:mb-0">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
                         magna aliqua. Ut enim ad minim veniam.
@@ -55,35 +53,23 @@ const Footer = () => {
               {/* Quick Links Section */}
               <div className="w-full sm:w-auto lg:w-[20%]">
                 <div className="flex flex-col gap-3 lg:gap-[12px]">
-                  <h3
-                    className="text-lg font-semibold leading-xl text-primary"
-                  >
+                  <h3 className="text-lg font-semibold leading-xl text-primary">
                     Quick Links
                   </h3>
                   <div className="flex flex-col gap-2">
-                    <p
-                      className="text-base font-normal leading-7xl text-primary hover:text-blue-600 transition-colors cursor-pointer"
-                    >
+                    <p className="text-base font-normal leading-7xl text-primary hover:text-blue-600 transition-colors cursor-pointer">
                       Shop
                     </p>
-                    <p
-                      className="text-base font-normal leading-7xl text-primary hover:text-blue-600 transition-colors cursor-pointer"
-                    >
+                    <p className="text-base font-normal leading-7xl text-primary hover:text-blue-600 transition-colors cursor-pointer">
                       About us
                     </p>
-                    <p
-                      className="text-base font-normal leading-7xl text-primary hover:text-blue-600 transition-colors cursor-pointer"
-                    >
+                    <p className="text-base font-normal leading-7xl text-primary hover:text-blue-600 transition-colors cursor-pointer">
                       Journal
                     </p>
-                    <p
-                      className="text-base font-normal leading-7xl text-primary hover:text-blue-600 transition-colors cursor-pointer"
-                    >
+                    <p className="text-base font-normal leading-7xl text-primary hover:text-blue-600 transition-colors cursor-pointer">
                       Custom
                     </p>
-                    <p
-                      className="text-base font-normal leading-7xl text-primary hover:text-blue-600 transition-colors cursor-pointer"
-                    >
+                    <p className="text-base font-normal leading-7xl text-primary hover:text-blue-600 transition-colors cursor-pointer">
                       Contact us
                     </p>
                   </div>
@@ -93,9 +79,7 @@ const Footer = () => {
               {/* Customer Care Section */}
               <div className="w-full sm:w-auto lg:w-[12%]">
                 <div className="flex flex-col gap-3 lg:gap-[12px]">
-                  <h3
-                    className="text-lg font-semibold leading-xl text-primary"
-                  >
+                  <h3 className="text-lg font-semibold leading-xl text-primary">
                     Customer Care
                   </h3>
                   <ul className="flex flex-col gap-4 lg:gap-[16px]">
@@ -148,9 +132,7 @@ const Footer = () => {
                 <div className="flex flex-col gap-5 lg:gap-[20px]">
                   <ul className="flex flex-col gap-4 lg:gap-[16px]">
                     <li>
-                      <h3
-                        className="text-lg font-semibold leading-xl text-primary"
-                      >
+                      <h3 className="text-lg font-semibold leading-xl text-primary">
                         Contact us
                       </h3>
                     </li>
@@ -164,9 +146,7 @@ const Footer = () => {
                           alt="Location"
                           className="w-[20px] h-[20px] lg:w-[22px] lg:h-[22px] mt-1"
                         />
-                        <span
-                          className="text-base font-normal leading-base text-primary"
-                        >
+                        <span className="text-base font-normal leading-base text-primary">
                           857 4074 Vicente Pass,
                           <br />
                           Deckowview
@@ -213,9 +193,7 @@ const Footer = () => {
       {/* Copyright Section */}
       <div className="w-full bg-background-light">
         <div className="w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
-          <div
-            className="w-full py-[7px] sm:py-[10px] lg:py-[14px] px-4 sm:px-6 lg:px-[34px] text-center bg-background-light text-primary border-0 hover:bg-gray-200 transition-colors"
-          >
+          <div className="w-full py-[7px] sm:py-[10px] lg:py-[14px] px-4 sm:px-6 lg:px-[34px] text-center bg-background-light text-primary border-0 hover:bg-gray-200 transition-colors">
             Copyright © 2023 BOTOL. All Rights Reserved.
           </div>
         </div>

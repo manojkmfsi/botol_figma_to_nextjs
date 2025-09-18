@@ -16,7 +16,7 @@ export default function FAQSection() {
     {
       id: 2,
       number: "02",
-      question: "Where can I watch?",
+      question: "Where can I watch2?",
       answer: "",
       isExpanded: false,
     },
@@ -68,7 +68,6 @@ export default function FAQSection() {
                       </span>
                       <h3
                         className="text-[16px] sm:text-[24px] lg:text-[32px] font-bold leading-[20px] sm:leading-[30px] lg:leading-[40px] text-secondary"
-                        style={{ fontFamily: "Familjen Grotesk" }}
                       >
                         {item?.question}
                       </h3>
@@ -103,7 +102,6 @@ export default function FAQSection() {
                     <div className="mt-[15px] sm:mt-[22px] lg:mt-[30px] ml-[50px] sm:ml-[75px] lg:ml-[100px]">
                       <p
                         className="text-[12px] sm:text-[16px] lg:text-[20px] font-normal leading-[17px] sm:leading-[21px] lg:leading-[28px] text-accent"
-                        style={{ fontFamily: "Familjen Grotesk" }}
                       >
                         {item?.answer}
                       </p>

@@ -23,7 +23,6 @@ const Footer = () => {
                     <div className="flex-1">
                       <p
                         className="text-sm sm:text-base font-normal leading-3xl text-primary mb-4 sm:mb-0"
-                        style={{ fontFamily: "Familjen Grotesk" }}
                       >
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
@@ -58,38 +57,32 @@ const Footer = () => {
                 <div className="flex flex-col gap-3 lg:gap-[12px]">
                   <h3
                     className="text-lg font-semibold leading-xl text-primary"
-                    style={{ fontFamily: "Familjen Grotesk" }}
                   >
                     Quick Links
                   </h3>
                   <div className="flex flex-col gap-2">
                     <p
                       className="text-base font-normal leading-7xl text-primary hover:text-blue-600 transition-colors cursor-pointer"
-                      style={{ fontFamily: "Familjen Grotesk" }}
                     >
                       Shop
                     </p>
                     <p
                       className="text-base font-normal leading-7xl text-primary hover:text-blue-600 transition-colors cursor-pointer"
-                      style={{ fontFamily: "Familjen Grotesk" }}
                     >
                       About us
                     </p>
                     <p
                       className="text-base font-normal leading-7xl text-primary hover:text-blue-600 transition-colors cursor-pointer"
-                      style={{ fontFamily: "Familjen Grotesk" }}
                     >
                       Journal
                     </p>
                     <p
                       className="text-base font-normal leading-7xl text-primary hover:text-blue-600 transition-colors cursor-pointer"
-                      style={{ fontFamily: "Familjen Grotesk" }}
                     >
                       Custom
                     </p>
                     <p
                       className="text-base font-normal leading-7xl text-primary hover:text-blue-600 transition-colors cursor-pointer"
-                      style={{ fontFamily: "Familjen Grotesk" }}
                     >
                       Contact us
                     </p>
@@ -102,7 +95,6 @@ const Footer = () => {
                 <div className="flex flex-col gap-3 lg:gap-[12px]">
                   <h3
                     className="text-lg font-semibold leading-xl text-primary"
-                    style={{ fontFamily: "Familjen Grotesk" }}
                   >
                     Customer Care
                   </h3>
@@ -111,7 +103,6 @@ const Footer = () => {
                       <a
                         href="#"
                         className="text-base font-normal leading-7xl text-primary hover:text-blue-600 transition-colors"
-                        style={{ fontFamily: "Familjen Grotesk" }}
                       >
                         FAQ&apos;s
                       </a>
@@ -120,7 +111,6 @@ const Footer = () => {
                       <a
                         href="#"
                         className="text-base font-normal leading-7xl text-primary hover:text-blue-600 transition-colors"
-                        style={{ fontFamily: "Familjen Grotesk" }}
                       >
                         Returns
                       </a>
@@ -129,7 +119,6 @@ const Footer = () => {
                       <a
                         href="#"
                         className="text-base font-normal leading-7xl text-primary hover:text-blue-600 transition-colors"
-                        style={{ fontFamily: "Familjen Grotesk" }}
                       >
                         Ordering
                       </a>
@@ -138,7 +127,6 @@ const Footer = () => {
                       <a
                         href="#"
                         className="text-base font-normal leading-7xl text-primary hover:text-blue-600 transition-colors"
-                        style={{ fontFamily: "Familjen Grotesk" }}
                       >
                         Shipping
                       </a>
@@ -147,7 +135,6 @@ const Footer = () => {
                       <a
                         href="#"
                         className="text-base font-normal leading-7xl text-primary hover:text-blue-600 transition-colors"
-                        style={{ fontFamily: "Familjen Grotesk" }}
                       >
                         Personalization Policies
                       </a>
@@ -163,7 +150,6 @@ const Footer = () => {
                     <li>
                       <h3
                         className="text-lg font-semibold leading-xl text-primary"
-                        style={{ fontFamily: "Familjen Grotesk" }}
                       >
                         Contact us
                       </h3>
@@ -180,7 +166,6 @@ const Footer = () => {
                         />
                         <span
                           className="text-base font-normal leading-base text-primary"
-                          style={{ fontFamily: "Familjen Grotesk" }}
                         >
                           857 4074 Vicente Pass,
                           <br />
@@ -207,14 +192,12 @@ const Footer = () => {
                       <a
                         href="mailto:Jonedoe@xyz.com"
                         className="text-base font-normal leading-base text-primary hover:text-blue-600 transition-colors"
-                        style={{ fontFamily: "Familjen Grotesk" }}
                       >
                         Jonedoe@xyz.com
                       </a>
                       <a
                         href="tel:+8611222299999"
                         className="text-base font-normal leading-base text-primary hover:text-blue-600 transition-colors"
-                        style={{ fontFamily: "Familjen Grotesk" }}
                       >
                         +86 11 2222 9999
                       </a>
@@ -232,7 +215,6 @@ const Footer = () => {
         <div className="w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
           <div
             className="w-full py-[7px] sm:py-[10px] lg:py-[14px] px-4 sm:px-6 lg:px-[34px] text-center bg-background-light text-primary border-0 hover:bg-gray-200 transition-colors"
-            style={{ fontFamily: "Familjen Grotesk" }}
           >
             Copyright © 2023 BOTOL. All Rights Reserved.
           </div>

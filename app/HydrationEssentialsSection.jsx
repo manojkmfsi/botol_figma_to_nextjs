@@ -49,13 +49,11 @@ export default function HydrationEssentialsSection() {
             <div className="w-full sm:w-[50%]">
               <h2
                 className="text-[30px] sm:text-[45px] lg:text-[60px] font-semibold leading-[40px] sm:leading-[60px] lg:leading-[80px] text-secondary mb-2"
-                style={{ fontFamily: "Familjen Grotesk" }}
               >
                 Hydration Essentials
               </h2>
               <p
                 className="text-[14px] sm:text-[18px] lg:text-[24px] font-normal leading-[22px] sm:leading-[33px] lg:leading-[45px] text-secondary"
-                style={{ fontFamily: "Familjen Grotesk" }}
               >
                 Discover Our Range of Premium Water Bottles
               </p>
@@ -106,7 +104,6 @@ export default function HydrationEssentialsSection() {
                 {/* Product Name */}
                 <h3
                   className={`text-[20px] sm:text-[26px] lg:text-[32px] font-normal leading-[25px] sm:leading-[32px] lg:leading-[40px] text-secondary text-center`}
-                  style={{ fontFamily: "Familjen Grotesk" }}
                 >
                   {product.name}
                 </h3>

@@ -28,7 +28,6 @@ export default function ProductShowcaseSection() {
               </div>
               <h3
                 className="text-[20px] sm:text-[30px] lg:text-[40px] font-normal leading-[25px] sm:leading-[37px] lg:leading-[50px] text-white"
-                style={{ fontFamily: "Familjen Grotesk" }}
               >
                 Vacuum Bottles
               </h3>
@@ -45,7 +44,6 @@ export default function ProductShowcaseSection() {
               </div>
               <h3
                 className="text-[20px] sm:text-[30px] lg:text-[40px] font-normal leading-[25px] sm:leading-[37px] lg:leading-[50px] text-white"
-                style={{ fontFamily: "Familjen Grotesk" }}
               >
                 Fridge Bottles & Jugs
               </h3>
@@ -62,7 +60,6 @@ export default function ProductShowcaseSection() {
               </div>
               <h3
                 className="text-[20px] sm:text-[30px] lg:text-[40px] font-normal leading-[25px] sm:leading-[37px] lg:leading-[50px] text-white"
-                style={{ fontFamily: "Familjen Grotesk" }}
               >
                 Borosilicate Bottles
               </h3>
@@ -79,7 +76,6 @@ export default function ProductShowcaseSection() {
               </div>
               <h3
                 className="text-[20px] sm:text-[30px] lg:text-[40px] font-normal leading-[25px] sm:leading-[37px] lg:leading-[50px] text-white"
-                style={{ fontFamily: "Familjen Grotesk" }}
               >
                 Kettles
               </h3>

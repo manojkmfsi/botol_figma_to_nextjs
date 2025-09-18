@@ -46,35 +46,30 @@ const Header = () => {
               <button
                 role="menuitem"
                 className="text-base sm:text-lg lg:text-xl font-normal leading-2xl text-secondary hover:text-blue-600 transition-colors duration-200"
-                style={{ fontFamily: "Familjen Grotesk" }}
               >
                 Shop
               </button>
               <button
                 role="menuitem"
                 className="text-base sm:text-lg lg:text-xl font-normal leading-2xl text-primary hover:text-blue-600 transition-colors duration-200"
-                style={{ fontFamily: "Familjen Grotesk" }}
               >
                 Contact us
               </button>
               <button
                 role="menuitem"
                 className="text-base sm:text-lg lg:text-xl font-normal leading-2xl text-primary hover:text-blue-600 transition-colors duration-200"
-                style={{ fontFamily: "Familjen Grotesk" }}
               >
                 About
               </button>
               <button
                 role="menuitem"
                 className="text-base sm:text-lg lg:text-xl font-normal leading-2xl text-primary hover:text-blue-600 transition-colors duration-200"
-                style={{ fontFamily: "Familjen Grotesk" }}
               >
                 Journal
               </button>
               <button
                 role="menuitem"
                 className="text-base sm:text-lg lg:text-xl font-normal leading-2xl text-primary hover:text-blue-600 transition-colors duration-200"
-                style={{ fontFamily: "Familjen Grotesk" }}
               >
                 Custom
               </button>

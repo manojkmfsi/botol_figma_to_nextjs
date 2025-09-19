@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Botol: An Interactive WebSite Template
 
-## Getting Started
+Botol is a modern, responsive website template built with Next.js, featuring animation.
 
-First, run the development server:
+## Features:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**Next.js Framework:** Utilizes either the App Router for a robust and efficient development experience.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Static Site Generation (SSG):** Pages like the home are pre-rendered at build time for lightning-fast load speeds.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+**Animation:** Animate Homepage using framer-motion.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Technologies Used:
 
-## Learn More
+**Next.js -** For building the user interface.
 
-To learn more about Next.js, take a look at the following resources:
+**Tailwind CSS -** A utility-first CSS framework for rapid and responsive styling.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Framer Motion -** A React animation library.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Installation and Usage
 
-## Deploy on Vercel
+Clone the repository:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+     git clone https://github.com/manojkmfsi/botol_figma_to_nextjs.git
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Navigate to the project directory:
+
+    cd botol_figma_to_nextjs
+
+Install the dependencies:
+
+    npm install
+
+Start the development server:
+
+    npm run dev
+
+## Credits
+
+Figma Template: https://www.figma.com/community/file/1400862807328918023

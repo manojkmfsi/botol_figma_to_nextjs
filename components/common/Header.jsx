@@ -46,7 +46,7 @@ const Header = ({ toggle }) => {
 
           {/* Navigation Menu */}
           <nav
-            className={`${menuOpen ? "block" : "hidden"} lg:block w-full lg:w-auto bg-gray-200`}
+            className={`${menuOpen ? "block" : "hidden"} lg:block w-full lg:w-auto `}
           >
             <div className="flex flex-col lg:flex-row justify-center items-center gap-4 lg:gap-[40px] py-4 lg:py-0">
               <button

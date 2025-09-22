@@ -103,7 +103,7 @@ export default function ContactSection() {
 
               {/* Submit Button */}
               <button
-                className="px-[17px] sm:px-[25px] lg:px-[34px] py-[6px] sm:py-[9px] lg:py-[12px] w-full sm:w-auto max-w-[200px] sm:max-w-none"
+                className="hover:opacity-80 transition-opacity cursor-pointer"
                 style={{
                   background:
                     " linear-gradient(90deg, #00D1FF 0%, #1A83FF 100%); border-radius: 100px",

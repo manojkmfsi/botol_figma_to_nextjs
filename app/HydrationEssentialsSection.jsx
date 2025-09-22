@@ -55,6 +55,7 @@ export default function HydrationEssentialsSection() {
               </p>
             </div>
             <button
+              className="hover:opacity-80 transition-opacity cursor-pointer"
               style={{
                 background:
                   " linear-gradient(90deg, #00D1FF 0%, #1A83FF 100%); border-radius: 100px",
@@ -106,6 +107,7 @@ export default function HydrationEssentialsSection() {
 
                 {/* Learn More Button */}
                 <button
+                  className="hover:opacity-80 transition-opacity cursor-pointer"
                   style={{
                     background:
                       " linear-gradient(90deg, #00D1FF 0%, #1A83FF 100%); border-radius: 100px",

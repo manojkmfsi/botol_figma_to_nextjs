@@ -98,7 +98,7 @@ export default function FAQSection() {
                   {/* Expanded Content */}
                   {expandedItem === index && item?.answer && (
                     <div className="mt-[15px] sm:mt-[22px] lg:mt-[30px] ml-[50px] sm:ml-[75px] lg:ml-[100px]">
-                      <p className="text-[12px] sm:text-[16px] lg:text-[20px] font-normal leading-[17px] sm:leading-[21px] lg:leading-[28px] text-accent">
+                      <p className="text-[12px] sm:text-[16px] lg:text-[20px] font-normal leading-[17px] sm:leading-[21px] lg:leading-[28px]">
                         {item?.answer}
                       </p>
                     </div>

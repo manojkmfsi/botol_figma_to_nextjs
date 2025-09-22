@@ -193,7 +193,7 @@ const Footer = () => {
       {/* Copyright Section */}
       <div className="w-full bg-background-light">
         <div className="w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="w-full py-[7px] sm:py-[10px] lg:py-[14px] px-4 sm:px-6 lg:px-[34px] text-center bg-background-light text-primary border-0 hover:bg-gray-200 transition-colors">
+          <div className="w-full py-[7px] sm:py-[10px] lg:py-[14px] px-4 sm:px-6 lg:px-[34px] text-center bg-gray-200 text-primary border-0">
             Copyright © 2023 BOTOL. All Rights Reserved.
           </div>
         </div>

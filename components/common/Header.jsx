@@ -1,8 +1,14 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
-const Header = () => {
+const Header = ({ toggle }) => {
   const [menuOpen, setMenuOpen] = useState(false);
+
+  useEffect(() => {
+    if (menuOpen) {
+      setMenuOpen(false);
+    }
+  }, [toggle]);
 
   return (
     <header className="w-full">
@@ -40,7 +46,7 @@ const Header = () => {
 
           {/* Navigation Menu */}
           <nav
-            className={`${menuOpen ? "block" : "hidden"} lg:block w-full lg:w-auto`}
+            className={`${menuOpen ? "block" : "hidden"} lg:block w-full lg:w-auto bg-gray-200`}
           >
             <div className="flex flex-col lg:flex-row justify-center items-center gap-4 lg:gap-[40px] py-4 lg:py-0">
               <button
@@ -76,18 +82,7 @@ const Header = () => {
             </div>
           </nav>
 
-          {/* CTA Button */}
-          <div className="w-full lg:w-auto flex justify-center lg:justify-end">
-            <button
-              style={{
-                background:
-                  " linear-gradient(90deg, #00D1FF 0%, #1A83FF 100%); border-radius: 100px",
-                padding: "12px 36px",
-              }}
-            >
-              Inquiry Now
-            </button>
-          </div>
+
         </div>
       </div>
     </header>

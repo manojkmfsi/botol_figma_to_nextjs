@@ -6,7 +6,7 @@ export default function ProductShowcaseSection() {
     <section className="w-full">
       <div className="flex flex-col lg:flex-row w-full min-h-[400px] sm:min-h-[600px] lg:min-h-[860px]">
         {/* Left Image Section */}
-        <div className="w-full lg:w-1/2 bg-background-accent">
+        <div className="w-full lg:w-1/2">
           <img
             src="/images/img_22_1.png"
             alt="Premium Water Bottle"

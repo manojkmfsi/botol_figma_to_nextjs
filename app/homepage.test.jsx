@@ -10,8 +10,8 @@ jest.mock("../components/common/Footer", () => {
   return () => <div>Mock Footer</div>;
 });
 
-jest.mock("./HeroSection", () => {
-  return () => <div>Mock Hero Section</div>;
+jest.mock("./Banner", () => {
+  return () => <div>Mock Banner Section</div>;
 });
 
 jest.mock("./ProductShowcaseSection", () => {
@@ -43,7 +43,7 @@ describe("HomePage", () => {
 
     expect(screen.getByText("Mock Header")).toBeInTheDocument();
     expect(screen.getByText("Mock Footer")).toBeInTheDocument();
-    expect(screen.getByText("Mock Hero Section")).toBeInTheDocument();
+    expect(screen.getByText("Mock Banner Section")).toBeInTheDocument();
     expect(
       screen.getByText("Mock Product Showcase Section"),
     ).toBeInTheDocument();

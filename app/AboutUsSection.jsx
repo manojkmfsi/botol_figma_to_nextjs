@@ -5,22 +5,22 @@ export default function AboutUsSection() {
     {
       number: "1",
       title: "Wide Mouth Bottles\nTo Clean Easily.",
-      width: "w-full sm:w-[68%]",
+      width: "w-full",
     },
     {
       number: "2",
       title: "Insulated Bottles For\nHot And Cold Technology",
-      width: "w-full sm:w-[82%]",
+      width: "w-full",
     },
     {
       number: "3",
       title: "Variation In Sizes,\nStyles, And Material",
-      width: "w-full sm:w-[68%]",
+      width: "w-full",
     },
     {
       number: "4",
       title: "Made In India To Serve\nAuthenticity",
-      width: "w-full sm:w-[76%]",
+      width: "w-full",
     },
   ];
 
@@ -61,7 +61,7 @@ export default function AboutUsSection() {
 
                 {/* Learn More Button */}
                 <button
-                  className="px-[17px] sm:px-[25px] lg:px-[34px] py-[6px] sm:py-[9px] lg:py-[12px] w-full sm:w-auto max-w-[200px] sm:max-w-none"
+                  className="hover:opacity-80 transition-opacity cursor-pointer"
                   style={{
                     background:
                       " linear-gradient(90deg, #00D1FF 0%, #1A83FF 100%); border-radius: 100px",

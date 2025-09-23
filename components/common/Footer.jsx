@@ -4,13 +4,13 @@ const Footer = () => {
   return (
     <footer className="w-full mt-[40px] sm:mt-[60px] lg:mt-[80px]">
       {/* Main Footer Content */}
-      <section className="w-full bg-secondary-background">
-        <div className="w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-[88px]">
+      <section className="w-full bg-gray-100">
+        <div className="w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-[56px]">
           <div className="py-[31px] sm:py-[46px] lg:py-[62px]">
             <div className="flex flex-col lg:flex-row justify-between items-start gap-8 lg:gap-0">
               {/* Company Info Section */}
-              <div className="w-full lg:w-[36%] mb-4 lg:mb-2">
-                <div className="flex flex-col gap-5 lg:gap-[20px] w-full lg:w-[70%]">
+              <div className="w-full lg:w-[25%] mb-4 lg:mb-2">
+                <div className="flex flex-col gap-5 lg:gap-[20px] w-full">
                   {/* Logo */}
                   <img
                     src="/images/img_vector.svg"
@@ -19,7 +19,7 @@ const Footer = () => {
                   />
 
                   {/* Description and Social Icons */}
-                  <div className="flex flex-col sm:flex-row items-start gap-4 sm:gap-6">
+                  <div className="flex flex-col items-start gap-4 sm:gap-6">
                     <div className="flex-1">
                       <p className="text-sm sm:text-base font-normal leading-3xl text-primary mb-4 sm:mb-0">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -51,7 +51,7 @@ const Footer = () => {
               </div>
 
               {/* Quick Links Section */}
-              <div className="w-full sm:w-auto lg:w-[20%]">
+              <div className="w-full sm:w-auto lg:w-[15%]">
                 <div className="flex flex-col gap-3 lg:gap-[12px]">
                   <h3 className="text-lg font-semibold leading-xl text-primary">
                     Quick Links
@@ -77,7 +77,7 @@ const Footer = () => {
               </div>
 
               {/* Customer Care Section */}
-              <div className="w-full sm:w-auto lg:w-[12%]">
+              <div className="w-full sm:w-auto lg:w-[15%]">
                 <div className="flex flex-col gap-3 lg:gap-[12px]">
                   <h3 className="text-lg font-semibold leading-xl text-primary">
                     Customer Care
@@ -128,7 +128,7 @@ const Footer = () => {
               </div>
 
               {/* Contact Section */}
-              <div className="w-full sm:w-auto lg:w-[16%] lg:mt-[14px] lg:mr-[134px]">
+              <div className="w-full sm:w-auto lg:w-[16%]">
                 <div className="flex flex-col gap-5 lg:gap-[20px]">
                   <ul className="flex flex-col gap-4 lg:gap-[16px]">
                     <li>
@@ -153,36 +153,37 @@ const Footer = () => {
                         </span>
                       </a>
                     </li>
-                  </ul>
-
-                  <div className="flex gap-4 lg:gap-[30px]">
-                    <div className="flex flex-col gap-5 lg:gap-[20px] items-center">
-                      <img
-                        src="/images/img_email.png"
-                        alt="Email"
-                        className="w-[20px] h-[20px] lg:w-[22px] lg:h-[22px]"
-                      />
-                      <img
-                        src="/images/img_phone_call.png"
-                        alt="Phone"
-                        className="w-[20px] h-[20px] lg:w-[22px] lg:h-[22px]"
-                      />
-                    </div>
-                    <div className="flex flex-col gap-[22px] items-start">
+                    <li>
                       <a
                         href="mailto:Jonedoe@xyz.com"
-                        className="text-base font-normal leading-base text-primary hover:text-blue-600 transition-colors"
+                        className="flex gap-2 lg:gap-[8px] items-start hover:text-blue-600 transition-colors"
                       >
-                        Jonedoe@xyz.com
+                        <img
+                          src="/images/img_email.png"
+                          alt="Email"
+                          className="w-[20px] h-[20px] lg:w-[22px] lg:h-[22px]"
+                        />
+                        <span className="text-base font-normal leading-base text-primary">
+                          Jonedoe@xyz.com
+                        </span>
                       </a>
+                    </li>
+                    <li>
                       <a
-                        href="tel:+8611222299999"
-                        className="text-base font-normal leading-base text-primary hover:text-blue-600 transition-colors"
+                        href="#"
+                        className="flex gap-2 lg:gap-[8px] items-start hover:text-blue-600 transition-colors"
                       >
-                        +86 11 2222 9999
+                        <img
+                          src="/images/img_phone_call.png"
+                          alt="Phone"
+                          className="w-[20px] h-[20px] lg:w-[22px] lg:h-[22px]"
+                        />
+                        <span className="text-base font-normal leading-base text-primary">
+                          +86 11 2222 9999
+                        </span>
                       </a>
-                    </div>
-                  </div>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -192,8 +193,8 @@ const Footer = () => {
 
       {/* Copyright Section */}
       <div className="w-full bg-background-light">
-        <div className="w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="w-full py-[7px] sm:py-[10px] lg:py-[14px] px-4 sm:px-6 lg:px-[34px] text-center bg-gray-200 text-primary border-0">
+        <div className="w-full">
+          <div className="w-full py-[7px] sm:py-[10px] lg:py-[14px] text-center bg-gray-200 text-primary border-0">
             Copyright © 2023 BOTOL. All Rights Reserved.
           </div>
         </div>

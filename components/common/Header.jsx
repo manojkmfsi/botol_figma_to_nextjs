@@ -12,7 +12,7 @@ const Header = ({ toggle }) => {
 
   return (
     <header className="w-full">
-      <div className="w-full max-w-[1320px] mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row justify-between items-center py-4 lg:py-6 gap-4 lg:gap-0">
           {/* Logo */}
           <div className="flex justify-between items-center w-full lg:w-auto">
@@ -79,10 +79,18 @@ const Header = ({ toggle }) => {
               >
                 Custom
               </button>
+              {/* CTA Button */}
+              <button
+                style={{
+                  background:
+                    " linear-gradient(90deg, #00D1FF 0%, #1A83FF 100%); border-radius: 100px",
+                  padding: "12px 36px",
+                }}
+              >
+                Inquiry Now
+              </button>
             </div>
           </nav>
-
-
         </div>
       </div>
     </header>

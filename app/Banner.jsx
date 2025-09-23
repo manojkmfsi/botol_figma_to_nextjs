@@ -64,8 +64,8 @@ export default function Banner() {
   }, [scrollYProgress]);
 
   return (
-    <section className="w-full bg-background-primary">
-      <div className="w-full max-w-[1320px] mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="w-full bg-white">
+      <div className="w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="py-[18px] sm:py-[24px] lg:py-[36px]">
           {/* Banner Stack Container */}
           <div
@@ -75,7 +75,7 @@ export default function Banner() {
             {/* Central Circle with Border */}
             <motion.div
               variants={ringVariance}
-              className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[300px] h-[300px] sm:w-[450px] sm:h-[450px] lg:w-[600px] lg:h-[600px] rounded-full bg-background-primary border-[4px] sm:border-[6px] lg:border-[8px] border-solid border-transparent bg-clip-padding"
+              className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[300px] h-[300px] sm:w-[450px] sm:h-[450px] lg:w-[600px] lg:h-[600px] rounded-full bg-white border-[4px] sm:border-[6px] lg:border-[8px] border-solid border-transparent bg-clip-padding"
               style={{
                 backgroundImage:
                   "linear-gradient(180deg, #4dfbfb 0%, #788dff 100%)",

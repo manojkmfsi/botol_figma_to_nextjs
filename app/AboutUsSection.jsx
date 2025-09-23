@@ -5,22 +5,22 @@ export default function AboutUsSection() {
     {
       number: "1",
       title: "Wide Mouth Bottles\nTo Clean Easily.",
-      width: "w-full",
+      width: "w-full sm:w-[78%]",
     },
     {
       number: "2",
       title: "Insulated Bottles For\nHot And Cold Technology",
-      width: "w-full",
+      width: "w-full sm:w-[95%]",
     },
     {
       number: "3",
       title: "Variation In Sizes,\nStyles, And Material",
-      width: "w-full",
+      width: "w-full sm:w-[78%]",
     },
     {
       number: "4",
       title: "Made In India To Serve\nAuthenticity",
-      width: "w-full",
+      width: "w-full sm:w-[88%]",
     },
   ];
 
@@ -30,7 +30,7 @@ export default function AboutUsSection() {
       style={{ backgroundImage: "url('/images/img_132643845195021_1.png')" }}
     >
       <div className="w-full bg-opacity-40">
-        <div className="w-full max-w-[1320px] mx-auto px-4 sm:px-6 lg:px-[56px]">
+        <div className="w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-[56px]">
           <div className="py-[40px] sm:py-[60px] lg:py-[80px]">
             <div className="flex flex-col lg:flex-row justify-center items-start gap-8 lg:gap-0">
               {/* Left Content Section */}
@@ -77,7 +77,7 @@ export default function AboutUsSection() {
                 {features.map((feature, index) => (
                   <div
                     key={index}
-                    className={`${feature.width} flex gap-[15px] sm:gap-[22px] lg:gap-[30px] items-center p-[12px] sm:p-[18px] lg:p-[24px] rounded-lg sm:rounded-xl lg:rounded-[24px] border border-solid border-border-white bg-[linear-gradient(180deg,#ffffff4c_0%,#00000019_50%,#ffffff33_100%)] shadow-[0px_2px_10px_#888888ff] sm:shadow-[0px_3px_15px_#888888ff] lg:shadow-[0px_4px_20px_#888888ff]`}
+                    className={`${feature.width} flex gap-[15px] sm:gap-[22px] lg:gap-[30px] items-center p-[12px] sm:p-[18px] lg:p-[24px] rounded-lg sm:rounded-xl lg:rounded-[24px] border border-solid border-white bg-[linear-gradient(180deg,#ffffff4c_0%,#00000019_50%,#ffffff33_100%)] shadow-[0px_2px_10px_#888888ff] sm:shadow-[0px_3px_15px_#888888ff] lg:shadow-[0px_4px_20px_#888888ff]`}
                   >
                     <span className="text-[30px] sm:text-[45px] lg:text-[60px] font-semibold leading-[37px] sm:leading-[56px] lg:leading-[75px] text-white self-end">
                       {feature.number}

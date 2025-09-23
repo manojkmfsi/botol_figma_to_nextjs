@@ -42,7 +42,7 @@ export default function HydrationEssentialsSection() {
 
   return (
     <section className="w-full mt-[40px] sm:mt-[60px] lg:mt-[80px]">
-      <div className="w-full max-w-[1320px] mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col gap-[15px] sm:gap-[22px] lg:gap-[30px]">
           {/* Header Section */}
           <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 sm:gap-0">

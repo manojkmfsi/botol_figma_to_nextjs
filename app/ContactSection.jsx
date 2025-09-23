@@ -19,7 +19,7 @@ export default function ContactSection() {
 
   return (
     <section className="w-full mt-[40px] sm:mt-[60px] lg:mt-[80px]">
-      <div className="w-full max-w-[1320px] mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row justify-between items-center gap-8 lg:gap-0 rounded-md sm:rounded-lg lg:rounded-[18px] bg-[linear-gradient(90deg,#201f1fcc_0%,_#201f1f_100%)]">
           {/* Left Image Section */}
           <div className="w-full lg:w-[40%] mt-[21px] sm:mt-[31px] lg:mt-[42px] lg:self-end">
